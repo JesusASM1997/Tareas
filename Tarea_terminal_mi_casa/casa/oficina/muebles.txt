@@ -1,0 +1,5 @@
+1. buro
+2. archivero
+3. librero
+4. impresora
+5. escritorio

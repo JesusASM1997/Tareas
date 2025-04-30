@@ -1,0 +1,5 @@
+1. cama
+2. armario
+3. buro
+4. tele
+5. espejo  

@@ -1,0 +1,5 @@
+1. cama
+2. escritorio
+3. tele
+4. armario
+5. repisa

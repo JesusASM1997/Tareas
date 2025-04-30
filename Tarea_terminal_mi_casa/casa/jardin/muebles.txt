@@ -1,0 +1,6 @@
+1. silla
+2. mesa
+3. sombrilla
+4. azador
+5. hamaca
+
