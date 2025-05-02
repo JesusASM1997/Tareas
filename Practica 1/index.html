@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- se utiliza para el responsive, peor hno quiere decir que 
     al colocarla, ya todo sea responsive -->
     <title>Document</title> <!-- titulo del sitio -->
-    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="stylesheet" href="./estilos/styles.css"><!-- css externo-->
 </head>
 
     <body>
-        <h1> Mis comidas FAV 👌 </h1> <!-- solo debe haber un h1 por documento -->
+        <h1> Mis comidas Favoritas 👌 </h1> <!-- solo debe haber un h1 por documento -->
         <h2> Huevos Motuleños </h2>
         <h2> Molletes </h2>
-            <p>
+            <p  id = "parrafo-inicial"> <!--style="color: red;"-->
                 Este desayuno es basico,barato y muy rico. 
                 Se compone de un bolillo partido a la mitad, rellenos de frijoles y7 con una cubierta de queso.               
             </p>
@@ -21,7 +21,7 @@
         <h4> Guajalocombo </h4>
         <h5> Enchiladas </h5>
         <h6> Chilaquiles </h6>
-        <img src="https://img-global.cpcdn.com/recipes/14c664206181ba67/600x440cq70/una-comida-facil-y-economica-foto-principal.webp" alt="6 platos de comida">
+        <img id="plato-comida" src="https://img-global.cpcdn.com/recipes/14c664206181ba67/600x440cq70/una-comida-facil-y-economica-foto-principal.webp" alt="6 platos de comida">
         <!-- solo hay hasta h6, pero te permite escribir h7 y mnas pero no los reconoce -->
 
         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit maxime dicta accusamus saepe dolores ad? Incidunt
@@ -48,7 +48,7 @@
         <h3>Top 5 ingrdientes no gratos</h3>
         <ul>
             <li>Pulpo</li>
-            <li>Pezacado</li>
+            <li class="terminos-a-definir">Pezacado</li>
                 <ul>
                     <li>sarandeado</li>
                     <li>al mojo de ajo</li>
@@ -63,10 +63,21 @@
             <li>higado</li>
         </ul>
         <dl>
-            <dt>Cerveza de mantequilla</dt>
+            <dt class="terminos-a-definir">Cerveza de mantequilla</dt>
+            <dd>se sirve fria o caliente</dd><br><!--da salto de linea-->
+            <dt class="terminos-a-definir">Ranas de chocolate</dt>
+            <dd>Es una rana viva de chocolate, que si se descongela vuelve a la vida :v</dd>
+            <dt class="terminos-a-definir">Cerveza de mantequilla</dt>
             <dd>se sirve fria o caliente</dd><br><!--da salto de linea-->
             <dt>Ranas de chocolate</dt>
+            <dd>Es una rana viva de chocolate, que si se descongela vuelve a la vida :v</dd>
         </dl>
+        <p>
+            Este es un ejemplo de parrafo
+            Este es un ejemplo de parrafo
+            Este es un ejemplo de parrafo
+
+        </p>
 
         <img src= "./imagenes/gato tamalaero.jpg" alt="Imagen de gatito naranja haciendo tamales de hoja de maíz. Hay una olla de tamales a lado sobre una mesa y varios tamales sobre ella.">
         

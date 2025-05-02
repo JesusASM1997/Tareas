@@ -1,0 +1,30 @@
+h1{
+    font-family:cursive;
+    background-color: #802434;
+    text-align:center;
+    color: beige;
+    border-radius: 25%;
+    
+}
+p,ul{
+    color: #802434;
+    text-align: center;
+    width: 300px;
+    font-size: large;
+}
+h2{
+    background-color: #802434;
+    color:white ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+}
+.img-text{
+    margin-left: 25%;
+    display: flex;
+}
+#imagen-fav{
+    width: 40%;
+    height: 40%;
+}
