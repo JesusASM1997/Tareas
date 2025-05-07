@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+</head>
+
+<body>
+    <Header>
+        <h1>¡Contáctanos!</h1>
+    </Header>
+    <form action="" method="post">
+        <fieldset><!--Agrupacion por campos-->
+            <legend> Datos basicos del usuario</legend>
+            Nombres: <input type="text" placeholder="Jesus" required>
+            Apellido Paterno: <input type="text" placeholder="Servin" required>
+            Apellido Materno: <input type="text" placeholder="Monroy" required>
+            <!--placeholder es una guia para el usuario-->
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto </legend>
+            Correo electronico: <input type="email" placeholder="ejemplo@gmail.com" required>
+            <br>
+            Telefono: <input type="tel" placeholder="55555555" required>
+        </fieldset>
+        <fieldset>
+            <legend> Datos del pedido </legend>
+            <p> NOTA: El numero minimo de tamalaes paa generar un pedido por este medio es de 20 piezas y maximo de 500
+                piezas ¡Gracias por tu comprension! </p>
+            Numero de tamales: <input type="number" min="20" max="500">
+            <br>
+            Fecha de entrega: <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend> Datos del envio </legend>
+            <label
+                for="Recoger en sucursal"><!--  el valor del atributo for del label debe ser igual al valor del atributo id del input correspondiente -->
+                <input id="Recoger en sucursal" type="radio" name="tipo-de-envio"> Recoger en sucursal
+            </label>
+            <label for="Envio a domicilio">
+                <input id="Envio a domicilio" type="radio" name="tipo-de-envio"> Envio a domicilio
+            </label>
+            <label for="Punto medio">
+                <input id="Punto medio" type="radio" name="tipo-de-envio"> Punto medio
+                <Select name="entregas-Punto-medio">
+                    <option value="seleccion" disabled selected>Seleccione una opción</option>
+                    <option value="Metro-apatlaco">Metro apatlaco</option>
+                    <option value="Cablebus-Santa-Marta">Cablebus Santa Marta</option>
+                    <option value="Palacio-Municipal_de-Neza">Palacio Municipal de Neza</option>
+                    <option value="Faro-de-Oriente">Faro de Oriente</option>
+                    <option value="Metro-Insurgentes">Metro Insurgentes</option>
+                    <option value="Metrobus-Tepalcates">Metrobus Tepalcates</option>
+                    <option value="Centro-de-texcoco">Centro de texcoco</option>
+                    <option value="FES-Zaragoza">FES Zaragoza</option>
+                    <option value="Estela-de-luz">Estela de luz</option>
+                    <option value="Coyoacan">Coyoacan</option>
+                    <option value="Metro-oceania">Metro oceania</option>
+                    <option value="Museo-Yancuic">Museo Yancuic</option>
+                </Select>
+            </label>
+            <label for="Delivery">
+                <input id="Delivery" type="radio" name="tipo-de-envio"> Delivery
+            </label>
+            <!-- Casilla de verificacion -->
+            <br>
+            <input type="checkbox" required>Acepto temrinos y condiciones
+            <br>
+            <!-- se renderiza un boton de enviar   -->
+            <!-- <input type="submit"> -->
+        </fieldset>
+        <button type="submit">¡Amonos recio! </button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.titulo-principal{
+    /* Selectores class Tiene un valor de especifidad de 10  */
+    color: paleturquoise;
+}
+h1{
+    /* selectores de tipo/elementos tiene un valor de especifidad de 1 */
+    color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+Especificidad
+selectro universal =0
+Elementos y pseudo elementos = 1
+Clases, atributos y pseudo-clases =10
+id = 100
+!important =1000
+*/
+h1.titulo-principal{
+    color: black;
+    /* suma de especifisidades 10(class)+1(elementos)=11 */
+}
+/* #title{
+    color: #383c;
+} */
+h1{
+    color: red;
+    font-family: cursive;
+}
+
+h1{
+    color: green;
+}
